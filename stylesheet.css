@@ -1,0 +1,35 @@
+ *{
+  padding:0; margin:0;
+ }
+ nav{
+    background-color: darkgrey;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+  }
+
+  li a{
+    font-size:20px;
+  }
+
+  section {background-color:darkgrey;
+  }
+  section h3{
+    padding-top:12px;
+  }
+
+  /* for mobile view */
+
+  @media (max-width: 767px) {
+    .navbar-brand h1{
+      padding-left:30px;
+    }
+    .navbar-nav li a:hover{
+      background-color:white;
+      cursor: pointer;
+    }
+     #main-content h2 {
+      font-size:45px;
+    }
+  }
+
+          
